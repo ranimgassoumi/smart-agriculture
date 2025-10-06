@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "smart-agriculture-api",
   "version": "1.0.0",
   "description": "Smart Agriculture API with JWT Authentication",
@@ -35,10 +36,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+  "name": "new-projet",
+  "version": "1.0.0",
+  "description": "Projet CRUD Fields avec Node.js et MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+>>>>>>> 14b19fd24864f42de5e774a100f25702e0b41343
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "description": "",
   "dependencies": {
     "axios": "^1.12.2",
@@ -51,3 +62,15 @@
 >>>>>>> 93d9ad501ebae547e4002cb303956dcae80ed0ff
   }
 }
+=======
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
+
+>>>>>>> 14b19fd24864f42de5e774a100f25702e0b41343
