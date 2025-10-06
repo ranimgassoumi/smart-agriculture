@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Smart Agriculture API - Authentication System
 
 This is the authentication part of the Smart Agriculture project with JWT (JSON Web Token) implementation.
@@ -179,3 +180,7 @@ This authentication system is ready for integration with your smart agriculture 
 2. Implement role-based access control
 3. Add password reset functionality
 4. Integrate with your sensor and farming data endpoints
+=======
+# smart-agriculture
+The Smart Agriculture Monitoring System is an IoT-based solution designed to help farmers and agricultural managers remotely monitor and control their fields in real time. This system collects environmental data such as temperature, humidity, soil moisture.
+>>>>>>> 93d9ad501ebae547e4002cb303956dcae80ed0ff
