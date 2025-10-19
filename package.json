@@ -1,14 +1,25 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "backend_sensors_part",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+  "name": "new-projet",
+  "version": "1.0.0",
+  "description": "Projet CRUD Fields avec Node.js et MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+>>>>>>> sabrin-part
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "description": "",
   "dependencies": {
     "axios": "^1.12.2",
@@ -29,8 +40,18 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.0"
 >>>>>>> chaima-dev
+=======
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.0"
+>>>>>>> sabrin-part
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> sabrin-part

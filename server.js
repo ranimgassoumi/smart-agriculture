@@ -1,13 +1,20 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 const express = require("express");
 const dotenv = require("dotenv");
 const connectDB = require("./config/db");
 const cors = require("cors");
+=======
+const express = require("express");
+const dotenv = require("dotenv");
+const connectDB = require("./config/db");
+>>>>>>> sabrin-part
 
 dotenv.config();
 connectDB();
 
 const app = express();
+<<<<<<< HEAD
 
 app.use(cors());
 app.use(express.json());
@@ -53,3 +60,17 @@ app.get("/", (req, res) => {
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
 >>>>>>> chaima-dev
+=======
+app.use(express.json());
+
+// Routes CRUD Fields
+app.use("/fields", require("./routes/fieldRoutes"));
+
+// Route test
+app.get("/", (req, res) => res.send("API fonctionne !"));
+
+// Démarrage du serveur
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`🚀 Serveur lancé sur le port ${PORT}`));
+
+>>>>>>> sabrin-part
