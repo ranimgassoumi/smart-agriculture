@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "backend_sensors_part",
   "version": "1.0.0",
   "main": "index.js",
@@ -13,6 +14,21 @@
     "axios": "^1.12.2",
     "dotenv": "^17.2.3",
     "express": "^5.1.0"
+=======
+  "name": "agriculture-project",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0"
+>>>>>>> chaima-dev
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
