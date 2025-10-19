@@ -1,6 +1,7 @@
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "backend_sensors_part",
   "version": "1.0.0",
   "main": "index.js",
@@ -15,10 +16,19 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
 >>>>>>> sabrin-part
+=======
+  "name": "smart-irrigation-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "dev" : "nodemon server.js"
+>>>>>>> khawla-part
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
 <<<<<<< HEAD
   "description": "",
   "dependencies": {
@@ -55,3 +65,15 @@
 =======
 
 >>>>>>> sabrin-part
+=======
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1",
+    "nodemon": "^3.1.10"
+  }
+}
+>>>>>>> khawla-part
